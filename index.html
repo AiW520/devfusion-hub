@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>我的技术方案知识库</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 深色主题，和你的代码编辑器风格匹配 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <!-- 改成 Docsify 自带的白色主题 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    /* 自定义代码高亮和链接样式 */
+    /* 自定义高亮样式，适配白色背景 */
     .markdown-section a { color: #42b983; }
-    .markdown-section code { background: #282c34; }
+    .markdown-section code { background: #f7f7f7; color: #e96900; }
   </style>
 </head>
 <body>
@@ -17,18 +17,16 @@
   <script>
     window.$docsify = {
       name: '技术方案知识库',
-      repo: '', // 可以换成你的 GitHub 仓库地址
+      repo: '',
       loadSidebar: true,
       loadNavbar: true,
-      subMaxLevel: 3, // 支持三级目录，和你的文件结构匹配
-      auto2top: true, // 切换文档自动回到顶部
+      subMaxLevel: 3,
+      auto2top: true,
       search: {
-        placeholder: '搜索方案...',
-        noData: '未找到匹配的方案',
-        pathNamespaces: false,
-        maxAge: 86400000 // 搜索缓存一天
-      },
-      themeColor: '#42b983' // 主题色，和代码高亮匹配
+        placeholder: '搜索文档...',
+        noData: '无匹配结果',
+        pathNamespaces: false
+      }
     }
   </script>
   <!-- Docsify 核心 -->
