@@ -1,6 +1,0 @@
-- [首页](/)
-- Go方案
-- Java方案
-- Python方案
-- Rust方案
-- TypeScript方案
