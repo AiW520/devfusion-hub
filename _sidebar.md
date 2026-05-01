@@ -1,0 +1,111 @@
+- [首页](/)
+
+- **Go方案**
+  - Docker_Kubernetes
+    - [方案1_微服务部署平台](/Go方案/Docker_Kubernetes/方案1_微服务部署平台.md)
+    - [方案2_CI_CD自动化流水线](/Go方案/Docker_Kubernetes/方案2_CI_CD自动化流水线.md)
+    - [方案3_弹性扩缩容系统](/Go方案/Docker_Kubernetes/方案3_弹性扩缩容系统.md)
+  - Gin_React
+    - [方案1_博客平台](/Go方案/Gin_React/方案1_博客平台.md)
+    - [方案2_在线商城API](/Go方案/Gin_React/方案2_在线商城API.md)
+    - [方案3_任务协作系统](/Go方案/Gin_React/方案3_任务协作系统.md)
+  - gRPC_微服务
+    - [方案1_用户中心服务](/Go方案/gRPC_微服务/方案1_用户中心服务.md)
+    - [方案2_订单处理服务](/Go方案/gRPC_微服务/方案2_订单处理服务.md)
+    - [方案3_支付网关服务](/Go方案/gRPC_微服务/方案3_支付网关服务.md)
+
+- **Java方案**
+  - JPA深度集成
+    - [方案1_企业通讯录系统](/Java方案/JPA深度集成/方案1_企业通讯录系统.md)
+    - [方案2_在线考试系统](/Java方案/JPA深度集成/方案2_在线考试系统.md)
+  - KafkaStreams_流处理
+    - [方案1_实时数据大屏](/Java方案/KafkaStreams_流处理/方案1_实时数据大屏.md)
+  - Spring_Android
+    - [方案1_新闻资讯App](/Java方案/Spring_Android/方案1_新闻资讯App.md)
+  - SpringBoot_React
+    - [方案1_博客平台](/Java方案/SpringBoot_React/方案1_博客平台.md)
+    - [方案2_任务管理系统](/Java方案/SpringBoot_React/方案2_任务管理系统.md)
+    - [方案3_支付网关服务](/Java方案/SpringBoot_React/方案3_支付网关服务.md)
+  - SpringCloud_微服务
+    - [方案1_电商订单系统](/Java方案/SpringCloud_微服务/方案1_电商订单系统.md)
+    - [README](/Java方案/SpringCloud_微服务/README.md)
+
+- **Kotlin方案**
+  - Android_Compose
+    - [方案1_天气预报App](/Kotlin方案/Android_Compose/方案1_天气预报App.md)
+    - [方案2_笔记应用](/Kotlin方案/Android_Compose/方案2_笔记应用.md)
+    - [方案3_社交动态App](/Kotlin方案/Android_Compose/方案3_社交动态App.md)
+  - Ktor_微服务
+    - [方案1_待办清单API](/Kotlin方案/Ktor_微服务/方案1_待办清单API.md)
+    - [方案2_文件上传服务](/Kotlin方案/Ktor_微服务/方案2_文件上传服务.md)
+    - [方案3_用户认证系统](/Kotlin方案/Ktor_微服务/方案3_用户认证系统.md)
+  - SpringBoot_React
+    - [方案1_博客平台](/Kotlin方案/SpringBoot_React/方案1_博客平台.md)
+    - [方案2_在线投票系统](/Kotlin方案/SpringBoot_React/方案2_在线投票系统.md)
+    - [方案3_电商商品管理](/Kotlin方案/SpringBoot_React/方案3_电商商品管理.md)
+
+- **Python方案**
+  - Django_React企业级
+    - [方案1_电商后台管理系统](/Python方案/Django_React企业级/方案1_电商后台管理系统.md)
+    - [方案2_企业内部ERP系统](/Python方案/Django_React企业级/方案2_企业内部ERP系统.md)
+    - [方案3_在线教育平台](/Python方案/Django_React企业级/方案3_在线教育平台.md)
+  - FastAPI_MongoDB
+    - [方案文档汇总](/Python方案/FastAPI_MongoDB/方案文档汇总.md)
+  - FastAPI_React_SaaS
+    - [方案文档汇总](/Python方案/FastAPI_React_SaaS/方案文档汇总.md)
+  - Flask_Vue微服务
+    - [方案文档汇总](/Python方案/Flask_Vue微服务/方案文档汇总.md)
+  - LangChain_AI后端
+    - [方案1_智能客服机器人](/Python方案/LangChain_AI后端/方案1_智能客服机器人.md)
+    - [方案2_文档问答系统](/Python方案/LangChain_AI后端/方案2_文档问答系统.md)
+    - [方案3_代码生成助手](/Python方案/LangChain_AI后端/方案3_代码生成助手.md)
+  - Pandas数据分析
+    - [方案1_数据可视化仪表盘](/Python方案/Pandas数据分析/方案1_数据可视化仪表盘.md)
+    - [方案2_销售数据分析平台](/Python方案/Pandas数据分析/方案2_销售数据分析平台.md)
+  - Spark_大数据
+    - [方案1_日志实时分析平台](/Python方案/Spark_大数据/方案1_日志实时分析平台.md)
+    - [方案2_用户行为数据管道](/Python方案/Spark_大数据/方案2_用户行为数据管道.md)
+
+- **Rust方案**
+  - Actix_React
+    - [方案1_博客平台](/Rust方案/Actix_React/方案1_博客平台.md)
+    - [方案2_在线协作白板](/Rust方案/Actix_React/方案2_在线协作白板.md)
+    - [方案3_文件分享服务](/Rust方案/Actix_React/方案3_文件分享服务.md)
+  - Tauri_桌面应用
+    - [方案1_Markdown编辑器](/Rust方案/Tauri_桌面应用/方案1_Markdown编辑器.md)
+    - [方案2_本地音乐播放器](/Rust方案/Tauri_桌面应用/方案2_本地音乐播放器.md)
+    - [方案3_截图工具](/Rust方案/Tauri_桌面应用/方案3_截图工具.md)
+  - Tokio_异步服务
+    - [方案1_高性能API网关](/Rust方案/Tokio_异步服务/方案1_高性能API网关.md)
+    - [方案2_实时消息推送](/Rust方案/Tokio_异步服务/方案2_实时消息推送.md)
+    - [方案3_爬虫数据采集](/Rust方案/Tokio_异步服务/方案3_爬虫数据采集.md)
+
+- **TypeScript方案**
+  - Express_React
+    - [方案1_博客平台](/TypeScript方案/Express_React/方案1_博客平台.md)
+    - [方案2_任务看板](/TypeScript方案/Express_React/方案2_任务看板.md)
+  - NestJS_MongoDB
+    - [方案1_日志收集系统](/TypeScript方案/NestJS_MongoDB/方案1_日志收集系统.md)
+    - [方案2_文件管理服务](/TypeScript方案/NestJS_MongoDB/方案2_文件管理服务.md)
+  - Nextjs_NestJS
+    - [方案1_企业知识库](/TypeScript方案/Nextjs_NestJS/方案1_企业知识库.md)
+    - [方案2_在线投票系统](/TypeScript方案/Nextjs_NestJS/方案2_在线投票系统.md)
+  - Nextjs_Prisma
+    - [方案1_在线简历构建器](/TypeScript方案/Nextjs_Prisma/方案1_在线简历构建器.md)
+    - [方案2_SaaS项目管理工具](/TypeScript方案/Nextjs_Prisma/方案2_SaaS项目管理工具.md)
+    - [方案3_社交分享平台](/TypeScript方案/Nextjs_Prisma/方案3_社交分享平台.md)
+  - Nextjs_Supabase
+    - [方案1_实时聊天应用](/TypeScript方案/Nextjs_Supabase/方案1_实时聊天应用.md)
+    - [方案2_待办清单应用](/TypeScript方案/Nextjs_Supabase/方案2_待办清单应用.md)
+  - T3_Stack
+    - [方案1_社交笔记应用](/TypeScript方案/T3_Stack/方案1_社交笔记应用.md)
+    - [方案2_在线商城](/TypeScript方案/T3_Stack/方案2_在线商城.md)
+    - [方案3_开发者博客平台](/TypeScript方案/T3_Stack/方案3_开发者博客平台.md)
+
+- **顶层项目指南**
+  - [AI_Alchemist_AI应用完整项目指南](/AI_Alchemist_AI应用完整项目指南.md)
+  - [CloudForge_云原生完整项目指南](/CloudForge_云原生完整项目指南.md)
+  - [DataVault_数据分析完整项目指南](/DataVault_数据分析完整项目指南.md)
+  - [LiteLynx_轻快全栈完整项目指南](/LiteLynx_轻快全栈完整项目指南.md)
+  - [MobileForge_移动端完整项目指南](/MobileForge_移动端完整项目指南.md)
+  - [NeonStack_Node全栈完整项目指南](/NeonStack_Node全栈完整项目指南.md)
