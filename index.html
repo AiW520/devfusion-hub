@@ -2,14 +2,45 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>我的技术方案知识库</title>
+  <title>我的全栈技术方案知识库</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 改成 Docsify 自带的白色主题 -->
+  
+  <!-- 1. 清爽高端的白色主题 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- 2. 引入代码高亮和一键复制插件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css">
+  
   <style>
-    /* 自定义高亮样式，适配白色背景 */
-    .markdown-section a { color: #42b983; }
-    .markdown-section code { background: #f7f7f7; color: #e96900; }
+    /* 全局自定义样式，让界面更高级 */
+    :root {
+      --theme-color: #3f51b5; /* 主色调：深蓝色，专业又不刺眼 */
+    }
+    .app-nav a.active,
+    .app-nav a:hover {
+      color: var(--theme-color);
+    }
+    .sidebar-nav li.active > a {
+      color: var(--theme-color);
+      border-right: 3px solid var(--theme-color);
+    }
+    /* 代码块美化 */
+    .markdown-section pre {
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    /* 自定义滚动条 */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
   </style>
 </head>
 <body>
@@ -17,27 +48,39 @@
   <script>
     window.$docsify = {
       name: '技术方案知识库',
-      repo: '',
+      repo: '', // 去掉右上角的GitHub图标，界面更干净
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 3,
-      auto2top: true,
+      auto2top: true, // 切换页面自动回到顶部
+      coverpage: false,
+      // 3. 强化搜索功能
       search: {
-        placeholder: '搜索文档...',
-        noData: '无匹配结果',
+        placeholder: '🔍 搜索知识点、方案...',
+        noData: '没有找到相关内容',
+        depth: 3,
         pathNamespaces: false
-      }
+      },
+      // 4. 侧边栏折叠，层级更清晰
+      sidebarDisplayLevel: 1
     }
   </script>
+
   <!-- Docsify 核心 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- 搜索插件 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  <!-- 代码高亮 -->
+  
+  <!-- 插件1: 代码高亮 -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/prism.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  
+  <!-- 插件2: 一键复制代码 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  
+  <!-- 插件3: 回到顶部按钮 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-back-to-top-button@1/dist/docsify-back-to-top.min.js"></script>
 </body>
 </html>
